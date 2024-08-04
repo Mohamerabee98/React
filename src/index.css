@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.container {
+    width: 80%;
+    margin: auto;
+
+}
+
+.row-tw {
+    @apply flex flex-wrap
+}
+
+.active {
+    background-color: #1ABC9C;
+    border-radius: 9%;
+
+}
